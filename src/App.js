@@ -3,10 +3,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={developr} alt="logo" />
-      </header>
+    <div>
+      {/* <header className="App-header"> */}
+      <img src={developr} height="100%" width="100%" alt="logo" />
+      {/* </header> */}
     </div>
   );
 }
